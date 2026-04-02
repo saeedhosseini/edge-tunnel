@@ -2,5 +2,10 @@ name = "cf-worker-http-header" # todo
 main = "./cf-worker-http-header.js"
 compatibility_date = "2023-05-26"
 
+[observability]
+[observability.logs]
+enabled = false
+invocation_logs = true
+
 [vars]
-UUID = "example_dev_token"
+UUID = "123e4567-e89b-12d3-a456-426614174000"
